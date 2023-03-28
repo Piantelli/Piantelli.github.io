@@ -1,4 +1,4 @@
-/* Write CSS Here */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,10 +31,45 @@ body {
     padding: 20px;
  
 }
-.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.image, .Contact, .datos, .Skills, .barra, .Language, .Hobbies, .title,
 .Summary, .Experience, .Education, .project {
     margin-bottom: 30px;
 }
 .h2 {
     background-color: rgb(4, 96, 150);
 }
+
+.nav-enlace{
+    display: inline-block;
+    background-color: salmon;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+
+}
+.nav-enlace:hover{
+background: rosybrown;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.Experience{
+    padding-bottom: 30px;
+}
+input{
+    display: block;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.formulario{
+    margin-top: 100px;
+
+}
+
